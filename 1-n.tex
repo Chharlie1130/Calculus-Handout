@@ -1,0 +1,93 @@
+
+\chapter{Prerequisite}
+
+\section{Important Things in a Math Book}
+
+\chapter{Limits and Continuity}
+
+\section{Limit of a Function}
+
+\section{Limit of a Sequence}
+\subsection{Convergence and Divergence}
+
+\section{Limit Laws of Function and Sequence}
+\subsection{Limit Laws of Function}
+\subsection{Limit Laws of Sequence}
+\subsection{The Sandwich Theorem}
+\subsection{An Important Limit}
+
+\section{Continuity}
+\subsection{}
+
+\chapter{Derivatives}
+\section{Big-O and Little-o Notation}
+\textbf{Big-O Notation}, along with \textbf{Little-o Notation}, tell you how fast a function grows and declines.
+Obviously, this notation is abusing the equality symbol, since it violates the axiom of
+equality: "things equal to the same thing are equal to each other"
+. To be more formally
+correct, some people (mostly mathematicians, as opposed to computer scientists) prefer
+to define O(g(x)) as a set-valued function, whose value is all functions that do not grow
+faster then g(x), and use set membership notation to indicate that a specific function is a
+member of the set thus defined. Both forms are in common use, but the sloppier equality
+notation is more common at present.
+
+\chapter{Applications of Derivatives}
+\section{Motivation}
+% Creating logic sequence with arrows for theorems
+\[
+\begin{tikzpicture}[>=Stealth, thick]
+    % Intermediate Value Theorem
+    \node (IVT) at (0, 0) {Intermediate Value Theorem};
+    % Extreme Value Theorem
+    \node (EVT) at (0, -2) {Extreme Value Theorem};
+    % Rolle's Theorem
+    \node (RT) at (0, -4) {Rolle's Theorem};
+    % Mean Value Theorem
+    \node (MVT) at (0, -6) {Mean Value Theorem};
+    % Cauchy's Mean Value Theorem
+    \node (CMVT) at (0, -8) {Cauchy's Mean Value Theorem};
+    
+    % Arrows showing implication
+    \draw[->] (IVT) -- (EVT);
+    \draw[->] (EVT) -- (RT);
+    \draw[->] (RT) -- (MVT);
+    \draw[->] (MVT) -- (CMVT);
+\end{tikzpicture}
+\]
+
+
+\section{Theorems and Tools for Analyzing Function Extremes}
+\subsection{Intermediate Value Theorem}
+\subsection{Extreme Value Theorem}
+\subsection{Rolle's Theorem}
+\subsection{Mean Value Theorem}
+
+\section{Indeterminate Forms and L'Hôpital's Rule}
+\subsection{Cauchy's Mean Value Theorem}
+\subsection{Indeterminate Form $0/0$}
+\subsection{L'Hôpital's Rule}
+
+\chapter{Integrals}
+\section{Motivation}
+\subsection{Definite and Indefinite Integrals}
+
+\section{Antiderivatives}
+
+\section{Riemann Sums}
+
+
+\section{The Fundamental Theorem of Calculus}
+
+\chapter{Techniques of Integration}
+\section{Substitution}
+
+
+\section{Integration by Parts}
+
+
+
+\section{Partial Fractions}
+
+\chapter{Applications of Definite Integrals}
+
+\chapter{}
