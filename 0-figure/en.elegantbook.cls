@@ -1177,3 +1177,4 @@
 \newpage%
 \if@twocolumn\hbox{}\newpage\fi\fi\fi}
 
+\usepackage{array}
